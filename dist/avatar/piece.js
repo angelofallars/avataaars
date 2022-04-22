@@ -29,7 +29,12 @@ var nose_1 = require("./face/nose");
 var Skin_1 = require("./Skin");
 var AvatarStyle;
 (function (AvatarStyle) {
-    AvatarStyle["Circle"] = "Circle";
+    AvatarStyle["CircleRed"] = "CircleRed";
+    AvatarStyle["CircleOrange"] = "CircleOrange";
+    AvatarStyle["CircleYellow"] = "CircleYellow";
+    AvatarStyle["CircleBlue"] = "CircleBlue";
+    AvatarStyle["CircleGreen"] = "CircleGreen";
+    AvatarStyle["CirclePurple"] = "CirclePurple";
     AvatarStyle["Transparent"] = "Transparent";
 })(AvatarStyle = exports.AvatarStyle || (exports.AvatarStyle = {}));
 var PieceComponent = /** @class */ (function (_super) {

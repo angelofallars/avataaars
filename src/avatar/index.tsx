@@ -8,7 +8,12 @@ import Skin from './Skin'
 import Top from './top'
 
 export enum AvatarStyle {
-  Circle = 'Circle',
+  CircleRed = 'CircleRed',
+  CircleOrange = 'CircleOrange',
+  CircleYellow = 'CircleYellow',
+  CircleBlue = 'CircleBlue',
+  CircleGreen = 'CircleGreen',
+  CirclePurple = 'CirclePurple',
   Transparent = 'Transparent',
 }
 
@@ -29,7 +34,33 @@ export default class Avatar extends React.Component<Props> {
   render() {
     const { path1, path2, path3, mask1, mask2, mask3 } = this
     const { avatarStyle } = this.props
-    const circle = avatarStyle === AvatarStyle.Circle
+    const circle = avatarStyle !== AvatarStyle.Transparent
+
+    let backgroundColor = "#eeeeee";
+
+    if (circle) {
+        switch(avatarStyle) {
+            case AvatarStyle.CircleRed:
+                backgroundColor = "#FF6565";
+                break;
+            case AvatarStyle.CircleOrange:
+                backgroundColor = "#FFA565";
+                break;
+            case AvatarStyle.CircleYellow:
+                backgroundColor = "#FFCC65";
+                break;
+            case AvatarStyle.CircleGreen:
+                backgroundColor = "#98FF65";
+                break;
+            case AvatarStyle.CircleBlue:
+                backgroundColor = "#65C9FF";
+                break;
+            case AvatarStyle.CirclePurple:
+                backgroundColor = "#E965FF";
+                break;
+        }
+    }
+
     return (
       <svg
         style={this.props.style}
@@ -79,7 +110,7 @@ export default class Avatar extends React.Component<Props> {
                   <g
                     id="Color/Palette/Blue-01"
                     mask={'url(#' + mask1 + ')'}
-                    fill="#65C9FF">
+                    fill={ backgroundColor }>
                     <rect id="🖍Color" x="0" y="0" width="240" height="240" />
                   </g>
                 </g>

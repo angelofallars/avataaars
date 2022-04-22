@@ -13,9 +13,15 @@ import Nose from './face/nose'
 import Skin from './Skin'
 
 export enum AvatarStyle {
-  Circle = 'Circle',
+  CircleRed = 'CircleRed',
+  CircleOrange = 'CircleOrange',
+  CircleYellow = 'CircleYellow',
+  CircleBlue = 'CircleBlue',
+  CircleGreen = 'CircleGreen',
+  CirclePurple = 'CirclePurple',
   Transparent = 'Transparent',
 }
+
 
 export interface Props {
   pieceSize?: string
