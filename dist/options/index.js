@@ -42,7 +42,7 @@ exports.ClotheOption = new Option_1.default({
 });
 exports.ClotheColorOption = new Option_1.default({
     key: 'clotheColor',
-    label: '↳ Color Fabric',
+    label: '↳ Clothes Color',
 });
 exports.GraphicOption = new Option_1.default({
     key: 'graphicType',

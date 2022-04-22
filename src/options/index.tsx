@@ -46,7 +46,7 @@ export const ClotheOption = new Option({
 
 export const ClotheColorOption = new Option({
   key: 'clotheColor',
-  label: '↳ Color Fabric',
+  label: '↳ Clothes Color',
 })
 
 export const GraphicOption = new Option({
