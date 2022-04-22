@@ -75,6 +75,7 @@ export const SkinOption = new Option({
 })
 
 export const allOptions = [
+  BackgroundColorOption,
   TopOption,
   AccessoriesOption,
   HatColorOption,

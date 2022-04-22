@@ -65,6 +65,7 @@ exports.SkinOption = new Option_1.default({
     label: '🎨 Skin',
 });
 exports.allOptions = [
+    exports.BackgroundColorOption,
     exports.TopOption,
     exports.AccessoriesOption,
     exports.HatColorOption,
