@@ -9,6 +9,7 @@ import Overall from './Overall'
 import ShirtCrewNeck from './ShirtCrewNeck'
 import ShirtScoopNeck from './ShirtScoopNeck'
 import ShirtVNeck from './ShirtVNeck'
+import TankTopCrewNeck from './TankTopCrewNeck'
 import { ClotheOption, Selector } from '../../options'
 
 export default class Clothes extends React.Component {
@@ -24,6 +25,7 @@ export default class Clothes extends React.Component {
         <ShirtCrewNeck />
         <ShirtScoopNeck />
         <ShirtVNeck />
+        <TankTopCrewNeck />
       </Selector>
     )
   }
