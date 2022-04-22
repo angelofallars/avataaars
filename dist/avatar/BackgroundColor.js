@@ -24,7 +24,7 @@ function makeColor(name, color) {
             return _super !== null && _super.apply(this, arguments) || this;
         }
         ColorComponent.prototype.render = function () {
-            return (React.createElement("g", { id: "Skin/\uD83D\uDC76\uD83C\uDFFD-03-Brown", mask: "url(#" + this.props.maskID + ")", fill: color },
+            return (React.createElement("g", { id: "BGColor/\uD83D\uDC76\uD83C\uDFFD-02-Brown", mask: "url(#" + this.props.maskID + ")", fill: color },
                 React.createElement("g", { transform: "translate(0.000000, 0.000000)", id: "Color" },
                     React.createElement("rect", { x: "0", y: "0", width: "264", height: "280" }))));
         };
@@ -46,12 +46,12 @@ var Tan4 = makeColor('Tan4', '#D49460');
 var Brown = makeColor('Brown', '#D08B5B');
 var DarkBrown = makeColor('DarkBrown', '#AE5D29');
 var Black = makeColor('Black', '#614335');
-var Skin = /** @class */ (function (_super) {
-    __extends(Skin, _super);
-    function Skin() {
+var BackgroundColor = /** @class */ (function (_super) {
+    __extends(BackgroundColor, _super);
+    function BackgroundColor() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    Skin.prototype.render = function () {
+    BackgroundColor.prototype.render = function () {
         return (React.createElement(options_1.Selector, { option: options_1.BackgroundColorOption, defaultOption: Light },
             React.createElement(Tanned, { maskID: this.props.maskID }),
             React.createElement(Yellow, { maskID: this.props.maskID }),
@@ -65,6 +65,6 @@ var Skin = /** @class */ (function (_super) {
             React.createElement(DarkBrown, { maskID: this.props.maskID }),
             React.createElement(Black, { maskID: this.props.maskID })));
     };
-    return Skin;
+    return BackgroundColor;
 }(React.Component));
-exports.default = Skin;
+exports.default = BackgroundColor;

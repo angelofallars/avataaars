@@ -11,6 +11,7 @@ import {default as PieceComponent} from './avatar/piece';
 
 export interface Props {
   avatarStyle: string
+  backgroundColor?: string
   className?: string;
   style?: React.CSSProperties
   topType?: string

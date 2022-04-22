@@ -17,6 +17,7 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AvatarStyle = void 0;
 var React = require("react");
+var BackgroundColor_1 = require("./BackgroundColor");
 var clothes_1 = require("./clothes");
 var Graphics_1 = require("./clothes/Graphics");
 var accessories_1 = require("./top/accessories");
@@ -49,6 +50,7 @@ var PieceComponent = /** @class */ (function (_super) {
     }
     PieceComponent.prototype.render = function () {
         return (React.createElement("svg", { style: this.props.style, width: this.props.pieceSize + "px", height: this.props.pieceSize + "px", viewBox: this.props.viewBox || "0 0 264 280", version: "1.1", xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink" },
+            this.props.pieceType === 'backgroundColor' && React.createElement(BackgroundColor_1.default, { maskID: "5678" }),
             this.props.pieceType === 'top' && React.createElement(top_1.default, null),
             this.props.pieceType === 'clothe' && React.createElement(clothes_1.default, null),
             this.props.pieceType === 'graphics' && React.createElement(Graphics_1.default, { maskID: "1234" }),

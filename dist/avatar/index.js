@@ -18,6 +18,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AvatarStyle = void 0;
 var React = require("react");
 var lodash_1 = require("lodash");
+var BackgroundColor_1 = require("./BackgroundColor");
 var accessories_1 = require("./top/accessories");
 var clothes_1 = require("./clothes");
 var face_1 = require("./face");
@@ -55,6 +56,7 @@ var Avatar = /** @class */ (function (_super) {
         var avatarStyle = this.props.avatarStyle;
         var circle = avatarStyle !== AvatarStyle.Transparent;
         var backgroundColor = "#eeeeee";
+        console.log(BackgroundColor_1.default);
         if (circle) {
             switch (avatarStyle) {
                 case AvatarStyle.CircleRed:
@@ -106,7 +108,8 @@ var Avatar = /** @class */ (function (_super) {
                                 React.createElement("use", { xlinkHref: '#' + path1 })),
                             React.createElement("use", { id: "Circle-Background", fill: "#E6E6E6", xlinkHref: '#' + path1 }),
                             React.createElement("g", { id: "Color/Palette/Blue-01", mask: 'url(#' + mask1 + ')', fill: backgroundColor },
-                                React.createElement("rect", { id: "\uD83D\uDD8DColor", x: "0", y: "0", width: "240", height: "240" })))) : null,
+                                React.createElement("rect", { id: "\uD83D\uDD8DColor", x: "0", y: "0", width: "240", height: "240" })),
+                            React.createElement(BackgroundColor_1.default, { maskID: mask1 }))) : null,
                         circle ? (React.createElement("mask", { id: mask2, fill: "white" },
                             React.createElement("use", { xlinkHref: '#' + path2 }))) : null,
                         React.createElement("g", { id: "Mask" }),

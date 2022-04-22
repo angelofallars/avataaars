@@ -5,6 +5,7 @@ export { default as Avatar, AvatarStyle } from './avatar';
 export { Option, OptionContext, allOptions } from './options';
 export interface Props {
     avatarStyle: string;
+    backgroundColor?: string;
     className?: string;
     style?: React.CSSProperties;
     topType?: string;

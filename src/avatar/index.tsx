@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { uniqueId } from 'lodash'
 
+import BackgroundColor from './BackgroundColor'
 import Accessories from './top/accessories'
 import Clothe from './clothes'
 import Face from './face'
@@ -133,6 +134,7 @@ export default class Avatar extends React.Component<Props> {
                     fill={ backgroundColor }>
                     <rect id="🖍Color" x="0" y="0" width="240" height="240" />
                   </g>
+                  <BackgroundColor maskID={mask1} />
                 </g>
               ) : null}
               {circle ? (

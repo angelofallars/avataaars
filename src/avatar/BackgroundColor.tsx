@@ -11,7 +11,7 @@ function makeColor(name: string, color: string) {
     render() {
       return (
         <g
-          id="Skin/👶🏽-03-Brown"
+          id="BGColor/👶🏽-02-Brown"
           mask={`url(#${this.props.maskID})`}
           fill={color}>
           <g transform="translate(0.000000, 0.000000)" id="Color">
@@ -39,7 +39,7 @@ const Brown = makeColor('Brown', '#D08B5B')
 const DarkBrown = makeColor('DarkBrown', '#AE5D29')
 const Black = makeColor('Black', '#614335')
 
-export default class Skin extends React.Component<Props> {
+export default class BackgroundColor extends React.Component<Props> {
   render() {
     return (
       <Selector option={BackgroundColorOption} defaultOption={Light}>

@@ -1,5 +1,6 @@
 import * as React from 'react'
 
+import BackgroundColor from './BackgroundColor'
 import Clothe from './clothes'
 import Graphics from './clothes/Graphics'
 import Accessories from './top/accessories'
@@ -47,6 +48,7 @@ export default class PieceComponent extends React.Component<Props> {
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink">
+        {this.props.pieceType === 'backgroundColor' && <BackgroundColor maskID="5678" />}
         {this.props.pieceType === 'top' && <Top />}
         {this.props.pieceType === 'clothe' && <Clothe />}
         {this.props.pieceType === 'graphics' && <Graphics maskID="1234" />}
