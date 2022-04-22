@@ -49,7 +49,7 @@ var PastelOrange = makeColor('PastelOrange', '#FFDEB5');
 var PastelRed = makeColor('PastelRed', '#FFAFB9');
 var PastelYellow = makeColor('PastelYellow', '#FFFFB1');
 var Pink = makeColor('Pink', '#FF488E');
-var Red = makeColor('Red', '#FF5C5C');
+var FlamingoRed = makeColor('FlamingoRed', '#FF5C5C');
 var White = makeColor('White', '#FFFFFF');
 var Colors = /** @class */ (function (_super) {
     __extends(Colors, _super);
@@ -74,7 +74,7 @@ var Colors = /** @class */ (function (_super) {
             React.createElement(PastelRed, { maskID: this.props.maskID }),
             React.createElement(PastelYellow, { maskID: this.props.maskID }),
             React.createElement(Pink, { maskID: this.props.maskID }),
-            React.createElement(Red, { maskID: this.props.maskID })));
+            React.createElement(FlamingoRed, { maskID: this.props.maskID })));
     };
     return Colors;
 }(React.Component));

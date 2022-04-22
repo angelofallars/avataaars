@@ -41,7 +41,7 @@ const PastelOrange = makeColor('PastelOrange', '#FFDEB5')
 const PastelRed = makeColor('PastelRed', '#FFAFB9')
 const PastelYellow = makeColor('PastelYellow', '#FFFFB1')
 const Pink = makeColor('Pink', '#FF488E')
-const Red = makeColor('Red', '#FF5C5C')
+const FlamingoRed = makeColor('FlamingoRed', '#FF5C5C')
 const White = makeColor('White', '#FFFFFF')
 
 export default class Colors extends React.Component<Props> {
@@ -64,7 +64,7 @@ export default class Colors extends React.Component<Props> {
         <PastelRed maskID={this.props.maskID} />
         <PastelYellow maskID={this.props.maskID} />
         <Pink maskID={this.props.maskID} />
-        <Red maskID={this.props.maskID} />
+        <FlamingoRed maskID={this.props.maskID} />
       </Selector>
     )
   }
