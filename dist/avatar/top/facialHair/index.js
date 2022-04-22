@@ -19,6 +19,7 @@ var React = require("react");
 var Stubble_1 = require("./Stubble");
 var StubbleDark_1 = require("./StubbleDark");
 var StubbleDarker_1 = require("./StubbleDarker");
+var Goatee_1 = require("./Goatee");
 var BeardLight_1 = require("./BeardLight");
 var BeardMajestic_1 = require("./BeardMajestic");
 var BeardMedium_1 = require("./BeardMedium");
@@ -36,6 +37,7 @@ var FacialHair = /** @class */ (function (_super) {
             React.createElement(Stubble_1.default, null),
             React.createElement(StubbleDark_1.default, null),
             React.createElement(StubbleDarker_1.default, null),
+            React.createElement(Goatee_1.default, null),
             React.createElement(Blank_1.default, null),
             React.createElement(BeardMedium_1.default, null),
             React.createElement(BeardLight_1.default, null),
