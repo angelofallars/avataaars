@@ -2,6 +2,7 @@ import Option from './Option';
 export { default as Option } from './Option';
 export { default as OptionContext, OptionContextState } from './OptionContext';
 export { default as Selector } from './Selector';
+export declare const BackgroundColorOption: Option;
 export declare const TopOption: Option;
 export declare const AccessoriesOption: Option;
 export declare const HatColorOption: Option;

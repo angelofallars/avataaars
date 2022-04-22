@@ -4,6 +4,11 @@ export { default as Option } from './Option'
 export { default as OptionContext, OptionContextState } from './OptionContext'
 export { default as Selector } from './Selector'
 
+export const BackgroundColorOption = new Option({
+  key: 'backgroundColor',
+  label: 'BG Color',
+})
+
 export const TopOption = new Option({
   key: 'topType',
   label: 'Top',
