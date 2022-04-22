@@ -2,6 +2,10 @@ import * as React from 'react';
 export interface Props {
     maskID: string;
 }
+export declare class None extends React.Component<Props> {
+    static optionValue: string;
+    render(): JSX.Element;
+}
 export declare class Skull extends React.Component<Props> {
     static optionValue: string;
     render(): JSX.Element;

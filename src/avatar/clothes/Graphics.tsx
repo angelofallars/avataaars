@@ -7,6 +7,23 @@ export interface Props {
   maskID: string
 }
 
+export class None extends React.Component<Props> {
+  static optionValue = 'None'
+  render () {
+    return (
+      <g
+        id='Clothing/Graphic/None'
+        mask={`url(#${this.props.maskID})`}
+        fillRule='evenodd'
+        fill='#FFFFFF'>
+        <g transform='translate(77.000000, 58.000000)' id='Fill-49'>
+          <path d='' />
+        </g>
+      </g>
+    )
+  }
+}
+
 export class Skull extends React.Component<Props> {
   static optionValue = 'Skull'
   render () {
@@ -379,7 +396,8 @@ export class Bear extends React.Component<Props> {
 export default class Graphics extends React.Component<Props> {
   render () {
     return (
-      <Selector option={GraphicOption} defaultOption={Skull}>
+      <Selector option={GraphicOption} defaultOption={None}>
+        <None maskID={this.props.maskID} />
         <Bat maskID={this.props.maskID} />
         <Cumbia maskID={this.props.maskID} />
         <Deer maskID={this.props.maskID} />

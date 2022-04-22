@@ -15,10 +15,24 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Bear = exports.Resist = exports.Pizza = exports.Selena = exports.Hola = exports.Diamond = exports.Deer = exports.Cumbia = exports.Bat = exports.SkullOutline = exports.Skull = void 0;
+exports.Bear = exports.Resist = exports.Pizza = exports.Selena = exports.Hola = exports.Diamond = exports.Deer = exports.Cumbia = exports.Bat = exports.SkullOutline = exports.Skull = exports.None = void 0;
 var React = require("react");
 var lodash_1 = require("lodash");
 var options_1 = require("../../options");
+var None = /** @class */ (function (_super) {
+    __extends(None, _super);
+    function None() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    None.prototype.render = function () {
+        return (React.createElement("g", { id: 'Clothing/Graphic/None', mask: "url(#" + this.props.maskID + ")", fillRule: 'evenodd', fill: '#FFFFFF' },
+            React.createElement("g", { transform: 'translate(77.000000, 58.000000)', id: 'Fill-49' },
+                React.createElement("path", { d: '' }))));
+    };
+    None.optionValue = 'None';
+    return None;
+}(React.Component));
+exports.None = None;
 var Skull = /** @class */ (function (_super) {
     __extends(Skull, _super);
     function Skull() {
@@ -219,7 +233,8 @@ var Graphics = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Graphics.prototype.render = function () {
-        return (React.createElement(options_1.Selector, { option: options_1.GraphicOption, defaultOption: Skull },
+        return (React.createElement(options_1.Selector, { option: options_1.GraphicOption, defaultOption: None },
+            React.createElement(None, { maskID: this.props.maskID }),
             React.createElement(Bat, { maskID: this.props.maskID }),
             React.createElement(Cumbia, { maskID: this.props.maskID }),
             React.createElement(Deer, { maskID: this.props.maskID }),
