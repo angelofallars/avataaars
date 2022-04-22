@@ -66,17 +66,17 @@ exports.SkinOption = new Option_1.default({
 });
 exports.allOptions = [
     exports.BackgroundColorOption,
+    exports.SkinOption,
     exports.TopOption,
-    exports.AccessoriesOption,
     exports.HatColorOption,
     exports.HairColorOption,
     exports.FacialHairOption,
     exports.FacialHairColor,
-    exports.ClotheOption,
-    exports.ClotheColorOption,
-    exports.GraphicOption,
     exports.EyesOption,
     exports.EyebrowOption,
     exports.MouthOption,
-    exports.SkinOption,
+    exports.ClotheOption,
+    exports.ClotheColorOption,
+    exports.GraphicOption,
+    exports.AccessoriesOption,
 ];

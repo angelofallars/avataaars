@@ -76,17 +76,17 @@ export const SkinOption = new Option({
 
 export const allOptions = [
   BackgroundColorOption,
+  SkinOption,
   TopOption,
-  AccessoriesOption,
   HatColorOption,
   HairColorOption,
   FacialHairOption,
   FacialHairColor,
-  ClotheOption,
-  ClotheColorOption,
-  GraphicOption,
   EyesOption,
   EyebrowOption,
   MouthOption,
-  SkinOption,
+  ClotheOption,
+  ClotheColorOption,
+  GraphicOption,
+  AccessoriesOption,
 ]
