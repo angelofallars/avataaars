@@ -35,9 +35,9 @@ function makeColor(name, color) {
     anyComponent.optionValue = name;
     return anyComponent;
 }
-var Black = makeColor('Black', '#1B1A19');
-var BlackLight = makeColor('BlackLight', '#1F1D1D');
-var BlackLighter = makeColor('BlackLighter', '#252322');
+var Black = makeColor('Black', '#1F1D1D');
+var BlackLight = makeColor('BlackLight', '#262424');
+var BlackLighter = makeColor('BlackLighter', '#302D2D');
 var Auburn = makeColor('Auburn', '#A55728');
 var Blonde = makeColor('Blonde', '#B58143');
 var BlondeGolden = makeColor('BlondeGolden', '#D6B370');
