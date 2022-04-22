@@ -1,16 +1,6 @@
 import * as React from 'react';
 export declare enum AvatarStyle {
-    CircleRed = "CircleRed",
-    CircleOrange = "CircleOrange",
-    CircleYellow = "CircleYellow",
-    CircleBlue = "CircleBlue",
-    CircleGreen = "CircleGreen",
-    CirclePurple = "CirclePurple",
-    CircleCerulean = "CircleCerulean",
-    CircleWhite = "CircleWhite ",
-    CircleLightGray = "CircleLightGray ",
-    CircleDarkGray = "CircleDarkGray ",
-    CircleBlack = "CircleBlack ",
+    Circle = "Circle",
     Transparent = "Transparent"
 }
 export interface Props {

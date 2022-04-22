@@ -35,8 +35,8 @@ function makeColor(name, color) {
     anyComponent.optionValue = name;
     return anyComponent;
 }
-var Red = makeColor('Red', '#FF6565');
-var Orange = makeColor('Orange', '#FFA565');
+var Red = makeColor('Red', '#E35A5A');
+var Orange = makeColor('Orange', '#FF974D');
 var Yellow = makeColor('Yellow', '#FFCC65');
 var Green = makeColor('Green', '#98FF65');
 var Blue = makeColor('Blue', '#65C9FF');

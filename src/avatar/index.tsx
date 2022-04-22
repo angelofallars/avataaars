@@ -9,17 +9,7 @@ import Skin from './Skin'
 import Top from './top'
 
 export enum AvatarStyle {
-  CircleRed = 'CircleRed',
-  CircleOrange = 'CircleOrange',
-  CircleYellow = 'CircleYellow',
-  CircleBlue = 'CircleBlue',
-  CircleGreen = 'CircleGreen',
-  CirclePurple = 'CirclePurple',
-  CircleCerulean = 'CircleCerulean',
-  CircleWhite = 'CircleWhite ',
-  CircleLightGray = 'CircleLightGray ',
-  CircleDarkGray = 'CircleDarkGray ',
-  CircleBlack = 'CircleBlack ',
+  Circle = 'Circle',
   Transparent = 'Transparent',
 }
 
@@ -41,46 +31,6 @@ export default class Avatar extends React.Component<Props> {
     const { path1, path2, path3, mask1, mask2, mask3 } = this
     const { avatarStyle } = this.props
     const circle = avatarStyle !== AvatarStyle.Transparent
-
-    let backgroundColor = "#eeeeee";
-
-    if (circle) {
-        switch(avatarStyle) {
-            case AvatarStyle.CircleRed:
-                backgroundColor = "#FF6565";
-                break;
-            case AvatarStyle.CircleOrange:
-                backgroundColor = "#FFA565";
-                break;
-            case AvatarStyle.CircleYellow:
-                backgroundColor = "#FFCC65";
-                break;
-            case AvatarStyle.CircleGreen:
-                backgroundColor = "#98FF65";
-                break;
-            case AvatarStyle.CircleBlue:
-                backgroundColor = "#65C9FF";
-                break;
-            case AvatarStyle.CirclePurple:
-                backgroundColor = "#E965FF";
-                break;
-            case AvatarStyle.CircleCerulean:
-                backgroundColor = "#6799CC";
-                break;
-            case AvatarStyle.CircleWhite:
-                backgroundColor = "#E5E5E5";
-                break;
-            case AvatarStyle.CircleLightGray:
-                backgroundColor = "#999999";
-                break;
-            case AvatarStyle.CircleDarkGray:
-                backgroundColor = "#585858";
-                break;
-            case AvatarStyle.CircleBlack:
-                backgroundColor = "#262626";
-                break;
-        }
-    }
 
     return (
       <svg
@@ -131,7 +81,7 @@ export default class Avatar extends React.Component<Props> {
                   <g
                     id="Color/Palette/Blue-01"
                     mask={'url(#' + mask1 + ')'}
-                    fill={ backgroundColor }>
+                    fill="#000000">
                     <rect id="🖍Color" x="0" y="0" width="240" height="240" />
                   </g>
                   <BackgroundColor maskID={mask1} />
