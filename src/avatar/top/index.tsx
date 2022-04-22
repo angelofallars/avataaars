@@ -44,29 +44,6 @@ export default class Top extends React.Component {
     return (
       <Selector defaultOption={LongHairStraight} option={TopOption}>
         <NoHair>{children}</NoHair>
-        <Eyepatch>{children}</Eyepatch>
-        <Hat>{children}</Hat>
-        <Hijab>{children}</Hijab>
-        <Turban>{children}</Turban>
-        <WinterHat1>{children}</WinterHat1>
-        <WinterHat2>{children}</WinterHat2>
-        <WinterHat3>{children}</WinterHat3>
-        <WinterHat4>{children}</WinterHat4>
-        <LongHairBigHair>{children}</LongHairBigHair>
-        <LongHairBob>{children}</LongHairBob>
-        <LongHairBun>{children}</LongHairBun>
-        <LongHairCurly>{children}</LongHairCurly>
-        <LongHairCurvy>{children}</LongHairCurvy>
-        <LongHairDreads>{children}</LongHairDreads>
-        <LongHairFrida>{children}</LongHairFrida>
-        <LongHairFro>{children}</LongHairFro>
-        <LongHairFroBand>{children}</LongHairFroBand>
-        <LongHairNotTooLong>{children}</LongHairNotTooLong>
-        <LongHairShavedSides>{children}</LongHairShavedSides>
-        <LongHairMiaWallace>{children}</LongHairMiaWallace>
-        <LongHairStraight>{children}</LongHairStraight>
-        <LongHairStraight2>{children}</LongHairStraight2>
-        <LongHairStraightStrand>{children}</LongHairStraightStrand>
         <ShortHairDreads01>{children}</ShortHairDreads01>
         <ShortHairDreads02>{children}</ShortHairDreads02>
         <ShortHairFrizzle>{children}</ShortHairFrizzle>
@@ -82,6 +59,29 @@ export default class Top extends React.Component {
         <ShortHairSides>{children}</ShortHairSides>
         <ShortHairTheCaesar>{children}</ShortHairTheCaesar>
         <ShortHairTheCaesarSidePart>{children}</ShortHairTheCaesarSidePart>
+        <LongHairBigHair>{children}</LongHairBigHair>
+        <LongHairBob>{children}</LongHairBob>
+        <LongHairBun>{children}</LongHairBun>
+        <LongHairCurly>{children}</LongHairCurly>
+        <LongHairCurvy>{children}</LongHairCurvy>
+        <LongHairDreads>{children}</LongHairDreads>
+        <LongHairFrida>{children}</LongHairFrida>
+        <LongHairFro>{children}</LongHairFro>
+        <LongHairFroBand>{children}</LongHairFroBand>
+        <LongHairNotTooLong>{children}</LongHairNotTooLong>
+        <LongHairShavedSides>{children}</LongHairShavedSides>
+        <LongHairMiaWallace>{children}</LongHairMiaWallace>
+        <LongHairStraight>{children}</LongHairStraight>
+        <LongHairStraight2>{children}</LongHairStraight2>
+        <LongHairStraightStrand>{children}</LongHairStraightStrand>
+        <Eyepatch>{children}</Eyepatch>
+        <Hat>{children}</Hat>
+        <Hijab>{children}</Hijab>
+        <Turban>{children}</Turban>
+        <WinterHat1>{children}</WinterHat1>
+        <WinterHat2>{children}</WinterHat2>
+        <WinterHat3>{children}</WinterHat3>
+        <WinterHat4>{children}</WinterHat4>
       </Selector>
     )
   }
