@@ -30,6 +30,7 @@ var nose_1 = require("./face/nose");
 var Skin_1 = require("./Skin");
 var AvatarStyle;
 (function (AvatarStyle) {
+    AvatarStyle["Fill"] = "Fill";
     AvatarStyle["Circle"] = "Circle";
     AvatarStyle["Transparent"] = "Transparent";
 })(AvatarStyle = exports.AvatarStyle || (exports.AvatarStyle = {}));

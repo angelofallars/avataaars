@@ -14,6 +14,7 @@ import Nose from './face/nose'
 import Skin from './Skin'
 
 export enum AvatarStyle {
+  Fill = 'Fill',
   Circle = 'Circle',
   Transparent = 'Transparent',
 }

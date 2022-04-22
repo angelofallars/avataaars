@@ -1,5 +1,6 @@
 import * as React from 'react';
 export declare enum AvatarStyle {
+    Fill = "Fill",
     Circle = "Circle",
     Transparent = "Transparent"
 }
