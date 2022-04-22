@@ -10,11 +10,11 @@ var Selector_1 = require("./Selector");
 Object.defineProperty(exports, "Selector", { enumerable: true, get: function () { return Selector_1.default; } });
 exports.BackgroundColorOption = new Option_1.default({
     key: 'backgroundColor',
-    label: 'BG Color',
+    label: '↳ 🖌️ BG Color',
 });
 exports.TopOption = new Option_1.default({
     key: 'topType',
-    label: 'Top',
+    label: '💇 Hair',
 });
 exports.AccessoriesOption = new Option_1.default({
     key: 'accessoriesType',
@@ -30,7 +30,7 @@ exports.HairColorOption = new Option_1.default({
 });
 exports.FacialHairOption = new Option_1.default({
     key: 'facialHairType',
-    label: 'Facial Hair',
+    label: '🧔 Facial Hair',
 });
 exports.FacialHairColor = new Option_1.default({
     key: 'facialHairColor',

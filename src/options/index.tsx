@@ -6,12 +6,12 @@ export { default as Selector } from './Selector'
 
 export const BackgroundColorOption = new Option({
   key: 'backgroundColor',
-  label: 'BG Color',
+  label: '↳ 🖌️ BG Color',
 })
 
 export const TopOption = new Option({
   key: 'topType',
-  label: 'Top',
+  label: '💇 Hair',
 })
 
 export const AccessoriesOption = new Option({
@@ -31,7 +31,7 @@ export const HairColorOption = new Option({
 
 export const FacialHairOption = new Option({
   key: 'facialHairType',
-  label: 'Facial Hair',
+  label: '🧔 Facial Hair',
 })
 
 export const FacialHairColor = new Option({
