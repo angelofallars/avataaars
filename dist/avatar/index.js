@@ -56,7 +56,6 @@ var Avatar = /** @class */ (function (_super) {
         var avatarStyle = this.props.avatarStyle;
         var circle = avatarStyle !== AvatarStyle.Transparent;
         var backgroundColor = "#eeeeee";
-        console.log(BackgroundColor_1.default);
         if (circle) {
             switch (avatarStyle) {
                 case AvatarStyle.CircleRed:

@@ -27,32 +27,32 @@ function makeColor(name: string, color: string) {
   return anyComponent
 }
 
-const Tanned = makeColor('Tanned', '#FD9841')
-const Yellow = makeColor('Yellow', '#F8D25C')
-const Pale = makeColor('Pale', '#FFDBB4')
-const Light = makeColor('Light', '#EDB98A')
-const Tan1 = makeColor('Tan1', '#E8A874')
-const Tan2 = makeColor('Tan2', '#E0A06C')
-const Tan3 = makeColor('Tan3', '#D99864')
-const Tan4 = makeColor('Tan4', '#D49460')
-const Brown = makeColor('Brown', '#D08B5B')
-const DarkBrown = makeColor('DarkBrown', '#AE5D29')
-const Black = makeColor('Black', '#614335')
+const Red = makeColor('Red', '#E35A5A')
+const Orange = makeColor('Orange', '#FF974D')
+const Yellow = makeColor('Yellow', '#FFCC65')
+const Green = makeColor('Green', '#98FF65')
+const Blue = makeColor('Blue', '#65C9FF')
+const Purple = makeColor('Purple', '#E965FF')
+const Cerulean = makeColor('Cerulean', '#6799CC')
+const White = makeColor('White', '#E5E5E5')
+const LightGray = makeColor('LightGray', '#999999')
+const DarkGray = makeColor('DarkGray', '#585858')
+const Black = makeColor('Black', '#262626')
 
 export default class BackgroundColor extends React.Component<Props> {
   render() {
     return (
-      <Selector option={BackgroundColorOption} defaultOption={Light}>
-        <Tanned maskID={this.props.maskID} />
+      <Selector option={BackgroundColorOption} defaultOption={Blue}>
+        <Red maskID={this.props.maskID} />
+        <Orange maskID={this.props.maskID} />
         <Yellow maskID={this.props.maskID} />
-        <Pale maskID={this.props.maskID} />
-        <Light maskID={this.props.maskID} />
-        <Tan1 maskID={this.props.maskID} />
-        <Tan2 maskID={this.props.maskID} />
-        <Tan3 maskID={this.props.maskID} />
-        <Tan4 maskID={this.props.maskID} />
-        <Brown maskID={this.props.maskID} />
-        <DarkBrown maskID={this.props.maskID} />
+        <Green maskID={this.props.maskID} />
+        <Blue maskID={this.props.maskID} />
+        <Purple maskID={this.props.maskID} />
+        <Cerulean maskID={this.props.maskID} />
+        <White maskID={this.props.maskID} />
+        <LightGray maskID={this.props.maskID} />
+        <DarkGray maskID={this.props.maskID} />
         <Black maskID={this.props.maskID} />
       </Selector>
     )
