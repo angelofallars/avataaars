@@ -42,6 +42,7 @@ var Gray01 = makeColor('Gray01', '#E6E6E6');
 var Gray02 = makeColor('Gray02', '#929598');
 var Gray03 = makeColor('Gray03', '#5B5C5E');
 var Orange = makeColor('Orange', '#BE6B35');
+var Red = makeColor('FlamingoRed', '#A8413C');
 var Heather = makeColor('Heather', '#3C4F5C');
 var PastelBlue = makeColor('PastelBlue', '#B1E2FF');
 var PastelGreen = makeColor('PastelGreen', '#A7FFC4');
@@ -67,6 +68,7 @@ var Colors = /** @class */ (function (_super) {
             React.createElement(Gray02, { maskID: this.props.maskID }),
             React.createElement(Gray03, { maskID: this.props.maskID }),
             React.createElement(Orange, { maskID: this.props.maskID }),
+            React.createElement(Red, { maskID: this.props.maskID }),
             React.createElement(Heather, { maskID: this.props.maskID }),
             React.createElement(PastelBlue, { maskID: this.props.maskID }),
             React.createElement(PastelGreen, { maskID: this.props.maskID }),

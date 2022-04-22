@@ -34,6 +34,7 @@ const Gray01 = makeColor('Gray01', '#E6E6E6')
 const Gray02 = makeColor('Gray02', '#929598')
 const Gray03 = makeColor('Gray03', '#5B5C5E')
 const Orange = makeColor('Orange', '#BE6B35')
+const Red = makeColor('FlamingoRed', '#A8413C')
 const Heather = makeColor('Heather', '#3C4F5C')
 const PastelBlue = makeColor('PastelBlue', '#B1E2FF')
 const PastelGreen = makeColor('PastelGreen', '#A7FFC4')
@@ -57,6 +58,7 @@ export default class Colors extends React.Component<Props> {
         <Gray02 maskID={this.props.maskID} />
         <Gray03 maskID={this.props.maskID} />
         <Orange maskID={this.props.maskID} />
+        <Red maskID={this.props.maskID} />
         <Heather maskID={this.props.maskID} />
         <PastelBlue maskID={this.props.maskID} />
         <PastelGreen maskID={this.props.maskID} />
