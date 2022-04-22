@@ -31,6 +31,10 @@ var AvatarStyle;
     AvatarStyle["CircleBlue"] = "CircleBlue";
     AvatarStyle["CircleGreen"] = "CircleGreen";
     AvatarStyle["CirclePurple"] = "CirclePurple";
+    AvatarStyle["CircleWhite"] = "CircleWhite ";
+    AvatarStyle["CircleLightGray"] = "CircleLightGray ";
+    AvatarStyle["CircleDarkGray"] = "CircleDarkGray ";
+    AvatarStyle["CircleBlack"] = "CircleBlack ";
     AvatarStyle["Transparent"] = "Transparent";
 })(AvatarStyle = exports.AvatarStyle || (exports.AvatarStyle = {}));
 var Avatar = /** @class */ (function (_super) {
@@ -69,6 +73,18 @@ var Avatar = /** @class */ (function (_super) {
                     break;
                 case AvatarStyle.CirclePurple:
                     backgroundColor = "#E965FF";
+                    break;
+                case AvatarStyle.CircleWhite:
+                    backgroundColor = "#E5E5E5";
+                    break;
+                case AvatarStyle.CircleLightGray:
+                    backgroundColor = "#999999";
+                    break;
+                case AvatarStyle.CircleDarkGray:
+                    backgroundColor = "#585858";
+                    break;
+                case AvatarStyle.CircleBlack:
+                    backgroundColor = "#262626";
                     break;
             }
         }

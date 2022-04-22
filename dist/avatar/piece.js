@@ -35,6 +35,10 @@ var AvatarStyle;
     AvatarStyle["CircleBlue"] = "CircleBlue";
     AvatarStyle["CircleGreen"] = "CircleGreen";
     AvatarStyle["CirclePurple"] = "CirclePurple";
+    AvatarStyle["CircleWhite"] = "CircleWhite ";
+    AvatarStyle["CircleLightGray"] = "CircleLightGray ";
+    AvatarStyle["CircleDarkGray"] = "CircleDarkGray ";
+    AvatarStyle["CircleBlack"] = "CircleBlack ";
     AvatarStyle["Transparent"] = "Transparent";
 })(AvatarStyle = exports.AvatarStyle || (exports.AvatarStyle = {}));
 var PieceComponent = /** @class */ (function (_super) {

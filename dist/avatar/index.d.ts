@@ -6,6 +6,10 @@ export declare enum AvatarStyle {
     CircleBlue = "CircleBlue",
     CircleGreen = "CircleGreen",
     CirclePurple = "CirclePurple",
+    CircleWhite = "CircleWhite ",
+    CircleLightGray = "CircleLightGray ",
+    CircleDarkGray = "CircleDarkGray ",
+    CircleBlack = "CircleBlack ",
     Transparent = "Transparent"
 }
 export interface Props {
