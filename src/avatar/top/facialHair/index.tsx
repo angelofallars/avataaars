@@ -1,6 +1,8 @@
 import * as React from 'react'
 
 import Stubble from './Stubble'
+import StubbleDark from './StubbleDark'
+import StubbleDarker from './StubbleDarker'
 import BeardLight from './BeardLight'
 import BeardMajestic from './BeardMajestic'
 import BeardMedium from './BeardMedium'
@@ -14,6 +16,8 @@ export default class FacialHair extends React.Component {
     return (
       <Selector option={FacialHairOption} defaultOption={Blank}>
         <Stubble />
+        <StubbleDark />
+        <StubbleDarker />
         <Blank />
         <BeardMedium />
         <BeardLight />
