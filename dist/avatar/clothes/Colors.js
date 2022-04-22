@@ -57,6 +57,7 @@ var Colors = /** @class */ (function (_super) {
     }
     Colors.prototype.render = function () {
         return (React.createElement(options_1.Selector, { option: options_1.ClotheColorOption, defaultOption: Gray01 },
+            React.createElement(White, { maskID: this.props.maskID }),
             React.createElement(Black, { maskID: this.props.maskID }),
             React.createElement(Blue01, { maskID: this.props.maskID }),
             React.createElement(Blue02, { maskID: this.props.maskID }),
@@ -71,8 +72,7 @@ var Colors = /** @class */ (function (_super) {
             React.createElement(PastelRed, { maskID: this.props.maskID }),
             React.createElement(PastelYellow, { maskID: this.props.maskID }),
             React.createElement(Pink, { maskID: this.props.maskID }),
-            React.createElement(Red, { maskID: this.props.maskID }),
-            React.createElement(White, { maskID: this.props.maskID })));
+            React.createElement(Red, { maskID: this.props.maskID })));
     };
     return Colors;
 }(React.Component));

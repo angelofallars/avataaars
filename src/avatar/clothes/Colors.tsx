@@ -47,6 +47,7 @@ export default class Colors extends React.Component<Props> {
   render () {
     return (
       <Selector option={ClotheColorOption} defaultOption={Gray01}>
+        <White maskID={this.props.maskID} />
         <Black maskID={this.props.maskID} />
         <Blue01 maskID={this.props.maskID} />
         <Blue02 maskID={this.props.maskID} />
@@ -62,7 +63,6 @@ export default class Colors extends React.Component<Props> {
         <PastelYellow maskID={this.props.maskID} />
         <Pink maskID={this.props.maskID} />
         <Red maskID={this.props.maskID} />
-        <White maskID={this.props.maskID} />
       </Selector>
     )
   }
