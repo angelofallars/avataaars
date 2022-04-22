@@ -27,9 +27,9 @@ function makeColor (name: string, color: string) {
   return anyComponent
 }
 
-const Black = makeColor('Black', '#1F1D1D')
-const BlackLight = makeColor('BlackLight', '#262424')
-const BlackLighter = makeColor('BlackLighter', '#302D2D')
+const Black = makeColor('Black', '#1B1A19')
+const BlackLight = makeColor('BlackLight', '#1F1D1D')
+const BlackLighter = makeColor('BlackLighter', '#252322')
 const Auburn = makeColor('Auburn', '#A55728')
 const Blonde = makeColor('Blonde', '#B58143')
 const BlondeGolden = makeColor('BlondeGolden', '#D6B370')
