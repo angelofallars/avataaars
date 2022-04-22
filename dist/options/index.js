@@ -46,7 +46,7 @@ exports.ClotheColorOption = new Option_1.default({
 });
 exports.GraphicOption = new Option_1.default({
     key: 'graphicType',
-    label: '↳ Graphic',
+    label: '↳ Clothes Graphic',
 });
 exports.EyesOption = new Option_1.default({
     key: 'eyeType',
