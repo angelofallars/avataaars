@@ -2,6 +2,7 @@ import * as React from 'react'
 import { uniqueId } from 'lodash'
 
 import Colors from './Colors'
+import Graphics from './Graphics'
 
 export default class TankTopCrewNeck extends React.Component {
   static optionValue = 'TankTopCrewNeck'
@@ -47,6 +48,7 @@ export default class TankTopCrewNeck extends React.Component {
             />
           </g>
         </g>
+        <Graphics maskID={mask1} />
       </g>
     )
   }
