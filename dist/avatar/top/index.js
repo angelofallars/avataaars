@@ -43,6 +43,7 @@ var ShortHairShortCurly_1 = require("./ShortHairShortCurly");
 var ShortHairShortFlat_1 = require("./ShortHairShortFlat");
 var ShortHairShortRound_1 = require("./ShortHairShortRound");
 var ShortHairShortWaved_1 = require("./ShortHairShortWaved");
+var ShortHairShortSharp_1 = require("./ShortHairShortSharp");
 var ShortHairSides_1 = require("./ShortHairSides");
 var ShortHairTheCaesar_1 = require("./ShortHairTheCaesar");
 var ShortHairTheCaesarSidePart_1 = require("./ShortHairTheCaesarSidePart");
@@ -92,6 +93,7 @@ var Top = /** @class */ (function (_super) {
             React.createElement(ShortHairShortFlat_1.default, null, children),
             React.createElement(ShortHairShortRound_1.default, null, children),
             React.createElement(ShortHairShortWaved_1.default, null, children),
+            React.createElement(ShortHairShortSharp_1.default, null, children),
             React.createElement(ShortHairSides_1.default, null, children),
             React.createElement(ShortHairTheCaesar_1.default, null, children),
             React.createElement(ShortHairTheCaesarSidePart_1.default, null, children)));

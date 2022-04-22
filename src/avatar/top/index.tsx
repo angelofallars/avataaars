@@ -27,6 +27,7 @@ import ShortHairShortCurly from './ShortHairShortCurly'
 import ShortHairShortFlat from './ShortHairShortFlat'
 import ShortHairShortRound from './ShortHairShortRound'
 import ShortHairShortWaved from './ShortHairShortWaved'
+import ShortHairShortSharp from './ShortHairShortSharp'
 import ShortHairSides from './ShortHairSides'
 import ShortHairTheCaesar from './ShortHairTheCaesar'
 import ShortHairTheCaesarSidePart from './ShortHairTheCaesarSidePart'
@@ -77,6 +78,7 @@ export default class Top extends React.Component {
         <ShortHairShortFlat>{children}</ShortHairShortFlat>
         <ShortHairShortRound>{children}</ShortHairShortRound>
         <ShortHairShortWaved>{children}</ShortHairShortWaved>
+        <ShortHairShortSharp>{children}</ShortHairShortSharp>
         <ShortHairSides>{children}</ShortHairSides>
         <ShortHairTheCaesar>{children}</ShortHairTheCaesar>
         <ShortHairTheCaesarSidePart>{children}</ShortHairTheCaesarSidePart>
