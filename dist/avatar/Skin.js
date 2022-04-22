@@ -39,6 +39,9 @@ var Tanned = makeColor('Tanned', '#FD9841');
 var Yellow = makeColor('Yellow', '#F8D25C');
 var Pale = makeColor('Pale', '#FFDBB4');
 var Light = makeColor('Light', '#EDB98A');
+var Tan1 = makeColor('Tan1', '#E09F69');
+var Tan2 = makeColor('Tan2', '#D99864');
+var Tan3 = makeColor('Tan3', '#D49460');
 var Brown = makeColor('Brown', '#D08B5B');
 var DarkBrown = makeColor('DarkBrown', '#AE5D29');
 var Black = makeColor('Black', '#614335');
@@ -53,6 +56,9 @@ var Skin = /** @class */ (function (_super) {
             React.createElement(Yellow, { maskID: this.props.maskID }),
             React.createElement(Pale, { maskID: this.props.maskID }),
             React.createElement(Light, { maskID: this.props.maskID }),
+            React.createElement(Tan1, { maskID: this.props.maskID }),
+            React.createElement(Tan2, { maskID: this.props.maskID }),
+            React.createElement(Tan3, { maskID: this.props.maskID }),
             React.createElement(Brown, { maskID: this.props.maskID }),
             React.createElement(DarkBrown, { maskID: this.props.maskID }),
             React.createElement(Black, { maskID: this.props.maskID })));
