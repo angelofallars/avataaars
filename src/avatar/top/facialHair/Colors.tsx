@@ -27,6 +27,9 @@ function makeColor (name: string, color: string) {
   return anyComponent
 }
 
+const Black = makeColor('Black', '#1B1A19')
+const BlackLight = makeColor('BlackLight', '#1F1D1D')
+const BlackLighter = makeColor('BlackLighter', '#252322')
 const Auburn = makeColor('Auburn', '#A55728')
 const Blonde = makeColor('Blonde', '#B58143')
 const BlondeGolden = makeColor('BlondeGolden', '#D6B370')
@@ -41,6 +44,9 @@ export default class Colors extends React.Component<Props> {
   render () {
     return (
       <Selector option={FacialHairColor} defaultOption={BrownDark}>
+        <Black maskID={this.props.maskID} />
+        <BlackLight maskID={this.props.maskID} />
+        <BlackLighter maskID={this.props.maskID} />
         <Auburn maskID={this.props.maskID} />
         <Blonde maskID={this.props.maskID} />
         <BlondeGolden maskID={this.props.maskID} />

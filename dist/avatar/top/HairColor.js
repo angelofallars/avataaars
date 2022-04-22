@@ -35,6 +35,9 @@ function makeColor(name, color) {
     anyComponent.optionValue = name;
     return anyComponent;
 }
+var Black = makeColor('Black', '#1B1A19');
+var BlackLight = makeColor('BlackLight', '#1F1D1D');
+var BlackLighter = makeColor('BlackLighter', '#252322');
 var Auburn = makeColor('Auburn', '#A55728');
 var Blonde = makeColor('Blonde', '#B58143');
 var BlondeGolden = makeColor('BlondeGolden', '#D6B370');
@@ -53,6 +56,9 @@ var HairColor = /** @class */ (function (_super) {
     }
     HairColor.prototype.render = function () {
         return (React.createElement(options_1.Selector, { option: options_1.HairColorOption, defaultOption: BrownDark },
+            React.createElement(Black, { maskID: this.props.maskID }),
+            React.createElement(BlackLight, { maskID: this.props.maskID }),
+            React.createElement(BlackLighter, { maskID: this.props.maskID }),
             React.createElement(Auburn, { maskID: this.props.maskID }),
             React.createElement(Blonde, { maskID: this.props.maskID }),
             React.createElement(BlondeGolden, { maskID: this.props.maskID }),
