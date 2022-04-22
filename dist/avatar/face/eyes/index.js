@@ -23,6 +23,7 @@ var Dizzy_1 = require("./Dizzy");
 var EyeRoll_1 = require("./EyeRoll");
 var Happy_1 = require("./Happy");
 var Hearts_1 = require("./Hearts");
+var HeartsLarge_1 = require("./HeartsLarge");
 var Side_1 = require("./Side");
 var Squint_1 = require("./Squint");
 var Surprised_1 = require("./Surprised");
@@ -43,6 +44,7 @@ var Eyes = /** @class */ (function (_super) {
             React.createElement(EyeRoll_1.default, null),
             React.createElement(Happy_1.default, null),
             React.createElement(Hearts_1.default, null),
+            React.createElement(HeartsLarge_1.default, null),
             React.createElement(Side_1.default, null),
             React.createElement(Squint_1.default, null),
             React.createElement(Surprised_1.default, null),

@@ -7,6 +7,7 @@ import Dizzy from './Dizzy'
 import EyeRoll from './EyeRoll'
 import Happy from './Happy'
 import Hearts from './Hearts'
+import HeartsLarge from './HeartsLarge'
 import Side from './Side'
 import Squint from './Squint'
 import Surprised from './Surprised'
@@ -25,6 +26,7 @@ export default class Eyes extends React.Component {
         <EyeRoll />
         <Happy />
         <Hearts />
+        <HeartsLarge />
         <Side />
         <Squint />
         <Surprised />
