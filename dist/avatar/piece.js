@@ -35,6 +35,7 @@ var AvatarStyle;
     AvatarStyle["CircleBlue"] = "CircleBlue";
     AvatarStyle["CircleGreen"] = "CircleGreen";
     AvatarStyle["CirclePurple"] = "CirclePurple";
+    AvatarStyle["CircleCerulean"] = "CircleCerulean";
     AvatarStyle["CircleWhite"] = "CircleWhite ";
     AvatarStyle["CircleLightGray"] = "CircleLightGray ";
     AvatarStyle["CircleDarkGray"] = "CircleDarkGray ";

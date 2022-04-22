@@ -14,6 +14,7 @@ export enum AvatarStyle {
   CircleBlue = 'CircleBlue',
   CircleGreen = 'CircleGreen',
   CirclePurple = 'CirclePurple',
+  CircleCerulean = 'CircleCerulean',
   CircleWhite = 'CircleWhite ',
   CircleLightGray = 'CircleLightGray ',
   CircleDarkGray = 'CircleDarkGray ',
@@ -61,6 +62,9 @@ export default class Avatar extends React.Component<Props> {
                 break;
             case AvatarStyle.CirclePurple:
                 backgroundColor = "#E965FF";
+                break;
+            case AvatarStyle.CircleCerulean:
+                backgroundColor = "#6799CC";
                 break;
             case AvatarStyle.CircleWhite:
                 backgroundColor = "#E5E5E5";

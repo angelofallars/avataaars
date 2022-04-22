@@ -31,6 +31,7 @@ var AvatarStyle;
     AvatarStyle["CircleBlue"] = "CircleBlue";
     AvatarStyle["CircleGreen"] = "CircleGreen";
     AvatarStyle["CirclePurple"] = "CirclePurple";
+    AvatarStyle["CircleCerulean"] = "CircleCerulean";
     AvatarStyle["CircleWhite"] = "CircleWhite ";
     AvatarStyle["CircleLightGray"] = "CircleLightGray ";
     AvatarStyle["CircleDarkGray"] = "CircleDarkGray ";
@@ -73,6 +74,9 @@ var Avatar = /** @class */ (function (_super) {
                     break;
                 case AvatarStyle.CirclePurple:
                     backgroundColor = "#E965FF";
+                    break;
+                case AvatarStyle.CircleCerulean:
+                    backgroundColor = "#6799CC";
                     break;
                 case AvatarStyle.CircleWhite:
                     backgroundColor = "#E5E5E5";

@@ -6,6 +6,7 @@ export declare enum AvatarStyle {
     CircleBlue = "CircleBlue",
     CircleGreen = "CircleGreen",
     CirclePurple = "CirclePurple",
+    CircleCerulean = "CircleCerulean",
     CircleWhite = "CircleWhite ",
     CircleLightGray = "CircleLightGray ",
     CircleDarkGray = "CircleDarkGray ",
