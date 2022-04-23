@@ -34,6 +34,7 @@ const Green = makeColor('Green', '#98FF65')
 const Blue = makeColor('Blue', '#65C9FF')
 const Purple = makeColor('Purple', '#E965FF')
 const Cerulean = makeColor('Cerulean', '#6799CC')
+const CactusGreen = makeColor('CactusGreen', '#588235')
 const White = makeColor('White', '#E5E5E5')
 const LightGray = makeColor('LightGray', '#999999')
 const DarkGray = makeColor('DarkGray', '#585858')
@@ -50,6 +51,7 @@ export default class BackgroundColor extends React.Component<Props> {
         <Blue maskID={this.props.maskID} />
         <Purple maskID={this.props.maskID} />
         <Cerulean maskID={this.props.maskID} />
+        <CactusGreen maskID={this.props.maskID} />
         <White maskID={this.props.maskID} />
         <LightGray maskID={this.props.maskID} />
         <DarkGray maskID={this.props.maskID} />

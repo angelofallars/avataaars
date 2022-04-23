@@ -42,6 +42,7 @@ var Green = makeColor('Green', '#98FF65');
 var Blue = makeColor('Blue', '#65C9FF');
 var Purple = makeColor('Purple', '#E965FF');
 var Cerulean = makeColor('Cerulean', '#6799CC');
+var CactusGreen = makeColor('CactusGreen', '#588235');
 var White = makeColor('White', '#E5E5E5');
 var LightGray = makeColor('LightGray', '#999999');
 var DarkGray = makeColor('DarkGray', '#585858');
@@ -60,6 +61,7 @@ var BackgroundColor = /** @class */ (function (_super) {
             React.createElement(Blue, { maskID: this.props.maskID }),
             React.createElement(Purple, { maskID: this.props.maskID }),
             React.createElement(Cerulean, { maskID: this.props.maskID }),
+            React.createElement(CactusGreen, { maskID: this.props.maskID }),
             React.createElement(White, { maskID: this.props.maskID }),
             React.createElement(LightGray, { maskID: this.props.maskID }),
             React.createElement(DarkGray, { maskID: this.props.maskID }),
